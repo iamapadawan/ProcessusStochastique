@@ -15,7 +15,7 @@ public class Main {
 
         do {
             System.out.println("\nRéseau d'ordinateurs, Topologie Circulaire - List Operations\n");
-            System.out.println("1. Insertion PC au début");
+            System.out.println("1. Insertion PC au début\n");
             System.out.println("2. Insertion PC à la fin");
             System.out.println("3. Insertion PC à une position");
             System.out.println("4. Insertion PC + Antivirus au début");
