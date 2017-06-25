@@ -29,13 +29,14 @@ Directives maven
 Execution
 ---------
 
-> grace à l'executable "Markovirus.exe"      
+> grace à l'executable "Markovirus.exe"
+pour cela de-zipper le fichier Markovirus.zip pui executez l'exe à l'intérieur sans le deplacer
 
 ou
 
 > grace au fichier jar "ProcessusStochastique-1.0.0-SNAPSHOT.jar"    
 >    Archive java de l'application pouvant etre executé avec la commande suivante:
-         >java -cp "ProcessusStochastique-1.0.0-SNAPSHOT.jar"  fr.esiea.unique.binome.aliayubsoumare.Main        
+         >java -cp "ProcessusStochastique-1.0.0-SNAPSHOT.jar"  fr.esiea.unique.binome.aliayubsoumare.App        
 
 Version Java utilisée
 ---------------------
