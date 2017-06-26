@@ -12,9 +12,9 @@
         <ProjectStochastique.productVersion>1.0.0.0</ProjectStochastique.productVersion>
         <ProjectStochastique.txtProductVersion>1.0.0.0</ProjectStochastique.txtProductVersion>
         <ProjectStochastique.productName>${project.name}</ProjectStochastique.productName>
-        <ProjectStochastique.companyName>P.S.A - Peugeot Citroen</ProjectStochastique.companyName>
         <ProjectStochastique.internalName>${project.name}</ProjectStochastique.internalName>
         <ProjectStochastique.originalFilename>MarkoVirus.exe</ProjectStochastique.originalFilename>
+<!--         you must add the jdk1.8 to the following repository to allow the program working properly: C:\Program Files\Eclipse_DEV\Jdks\jdk1.8-->
         <javaPathJdk_1.8>C:\Program Files\Eclipse_DEV\Jdks\jdk1.8</javaPathJdk_1.8>
     </properties>
     <build>
@@ -29,7 +29,7 @@
                         <!-- <mainClass>fr.esiea.unique.binome.ayubsoumare</mainClass> -->
                         <!-- </manifest> -->
                         <manifestEntries>
-                            <Main-Class>fr.esiea.unique.binome.aliayubsoumare.Main</Main-Class>
+                            <Main-Class>fr.esiea.unique.binome.aliayubsoumare.App</Main-Class>
                         </manifestEntries>
                     </archive>
                 </configuration>
@@ -82,7 +82,6 @@
                                 <jdkPreference>jdkOnly</jdkPreference>
                                 <path>${javaPathJdk_1.8}</path>
                                 <runtimeBits>64</runtimeBits>
-                                <opts>-Dfile.encoding=UTF-8 -d64 -Xms400m -Xmx1024m</opts>
                             </jre>
 
                             <versionInfo>
@@ -93,7 +92,6 @@
                                 <productVersion>${ProjectStochastique.productVersion}</productVersion>
                                 <txtProductVersion>${ProjectStochastique.txtProductVersion}</txtProductVersion>
                                 <productName>${ProjectStochastique.productName}</productName>
-                                <companyName>${ProjectStochastique.companyName}</companyName>
                                 <internalName>${ProjectStochastique.internalName}</internalName>
                                 <originalFilename>${ProjectStochastique.originalFilename}</originalFilename>
                             </versionInfo>
